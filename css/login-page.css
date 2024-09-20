@@ -1,0 +1,59 @@
+.login-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 130px;
+}
+
+.form-detail {
+  display: flex;
+  flex-direction: column;
+  background-color: #F9F9F9;
+  border: solid;
+  border-color: lightgray;
+  border-radius: 25px;
+  width: 600px;
+  height: 300px;
+  box-shadow: 2px 2px 5px lightgray;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form p {
+  color: #77208C;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.textfield {
+  border-radius: 10px;
+  width: 400px;
+  height: 35px;
+  border: solid;
+  border-color: lightgray;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.login-button {
+  background-color: #77208C;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  width: 250px;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.regis-link {
+  display: flex;
+  flex: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: gray;
+  margin-top: 15px;
+}

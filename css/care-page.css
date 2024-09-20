@@ -1,0 +1,149 @@
+.care-first-section {
+  display: flex;
+  color: black;
+  display: flex;
+  height: 500px;
+  margin-top: 80px;
+}
+
+.section-text {
+  padding-left: 80px;
+}
+
+.care-second-section p {
+  color: black;
+}
+.detail-section1 {
+  padding-right: 200px;
+  margin-left: 80x;
+}
+
+.care-second-section {
+  color: black;
+  display: flex;
+  height: 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+.info-section2 {
+  width: 500px;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+.care-title {
+  font-size: 60px;
+  font-weight: bold;
+  padding-top: 50px;
+  display: flex;
+  flex: 1;
+  padding-top: 100px;
+  color: #77208D;
+}
+
+.care-second-section .title {
+  color: #77208D;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.care-second-section .section-text{
+  right: 0;
+}
+
+.care-section2 {
+  padding-left: 80px;
+  padding-right: 200px;
+  color: black;
+}
+
+.detail-text-care {
+  padding-top: 40px;
+  font-size: 24px;
+}
+
+.our-services-text {
+  display: flex;
+  color: #77208D;
+  font-size: 60px;
+  font-weight: bold;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.care-list-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.care-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.care-detail {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  width: 330px;
+  height: 450px;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.care-img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border: solid;
+  border-color: #D9D9D9;
+  border-radius: 10px;
+}
+
+.care-name {
+  font-size: 24px;
+  color: #77208C;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.care-info {
+  font-size: 16px;
+  color: rgb(159, 159, 159);
+  width: 275px;
+  height: 75px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.book-now-button {
+  width: 150px;
+  height: 50px;
+  background-color: #77208C;
+  border-radius: 20px;
+  border: none;
+  transition: 0.15;
+  cursor: pointer;
+}
+
+.book-now-button a{
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 0;
+  text-decoration: none;
+}
+
+.book-now-button:hover {
+  background-color: #885495;
+}

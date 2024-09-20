@@ -1,0 +1,142 @@
+html{
+  scroll-behavior: smooth;
+}
+.care-detail-first-section {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.pet-care-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.care-detail-title {
+  display: flex;
+  color: #77208C;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.care-detail-info {
+  font-size: 30px;
+  text-align: center;
+  width: 700px;
+}
+
+.petcare-img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-shadow: 0px 10px #885495;
+}
+
+.appointment-data {
+  display: flex;
+}
+
+.form-petcare {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  background-color: #F9F9F9;
+  border-radius: 50px;
+  border: solid;
+  border-color: lightgray;
+  height: 1000px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.form-petcare p {
+  color: #77208C;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.appointment-data {
+  display: flex;
+  padding-bottom: 30px;
+  width: 658px;
+  padding-left: 20px;
+  justify-content: space-between;
+
+}
+
+.appointment-date {
+  display: flex;
+  padding-top: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.appointment-name {
+  display: flex;
+  padding-top: 29px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submit-button-care {
+  display: flex;
+  justify-content: center;
+}
+
+#submit-button-care{
+  color: white;
+  background-color: #77208C;
+  font-weight: bold;
+  font-size: 18px;
+  width: 300px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#submit-button-care:hover {
+  background-color: #885495;
+}
+
+.checkbox-care {
+  display: flex;
+  padding-left: 20px;
+  width: 658px;
+}
+
+#checkbox{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.checkbox-label{
+  margin: auto 0px;
+}
+
+.pet-care-form-text {
+  display: flex;
+  justify-content: center;
+  color: #77208C;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.readme-detail li{
+  padding-bottom: 20px;
+}
